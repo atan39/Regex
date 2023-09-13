@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# Regex Tutorial
 
 Introductory paragraph (replace this with your text)
 
@@ -20,8 +20,18 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+The characters `^`, `$`are anchors.  
+
+- `^` is the beginning of a string or line
+- `$` is the end of a string or line
+
+#### Example
+- For example, we could use the words amazing and panda. Using `/^a` it would only match amazing because it has an a at the beginning of the word. 
+
+- If we used `/a$` the word panda would work here since the string ends with a.
 
 ### Quantifiers
+Quantifiers specify how many characters or symbols is needed to be a match for an input. 
 
 ### Grouping Constructs
 
